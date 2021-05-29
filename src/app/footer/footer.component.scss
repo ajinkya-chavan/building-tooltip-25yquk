@@ -1,0 +1,19 @@
+.footer-container {
+  // background: pink;
+  margin: 0 2em;
+
+  /** position */
+  position: absolute;
+  bottom: 2em;
+  left: 0;
+  right: 0;
+
+  /** display */
+  display: flex;
+  flex-direction: row;
+
+  &__text {
+    // background: lightgreen;
+    margin: 0.5em;
+  }
+}

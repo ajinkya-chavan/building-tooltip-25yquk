@@ -1,0 +1,15 @@
+.header-container {
+  margin: 0 2em;
+  // background: pink;
+  display: flex;
+  flex-direction: row;
+
+  &__nav-item {
+    // background: rgba(123, 213, 34, 0.5);
+    margin: 0.5em;
+  }
+
+  &__nav-item:nth-child(1) {
+    // margin-left: auto;
+  }
+}
